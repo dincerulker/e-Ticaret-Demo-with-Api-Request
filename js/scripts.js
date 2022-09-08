@@ -33,7 +33,7 @@ $.ajax({
     success: function (result) {
         console.log(result);
         $.each(result.data, function (key, value) {
-            $(".beyaz-esya-dropdown").append('<li><a class="dropdown-item" href="#">' + value.categoryName + '</a></li>');
+            $(".bebek-urunleri-dropdown").append('<li><a class="dropdown-item" href="#">' + value.categoryName + '</a></li>');
         });
     },
     error: function (error) {
