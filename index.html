@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Karma Evinizin Yanında</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./assets/logo-karma.png">
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 py-1 px-lg-5">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-2">
+                    <li class="nav-item me-2"><a class="nav-link" target="_blank" href="https://www.facebook.com"><i
+                                class="fa-brands fa-facebook-f fa-lg"></i></a></li>
+                    <li class="nav-item me-2"><a class="nav-link" target="_blank" href="https://twitter.com"><i
+                                class="fa-brands fa-twitter fa-lg"></i></a></li>
+                    <li class="nav-item me-2"><a class="nav-link" target="_blank" href="https://www.youtube.com"><i
+                                class="fa-brands fa-youtube fa-lg"></i></a></li>
+                    <li class="nav-item me-2"><a class="nav-link" target="_blank" href="https://www.instagram.com"><i
+                                class="fa-brands fa-instagram fa-lg"></i></a></li>
+                </ul>
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-2">
+                        <li class="nav-item me-2"><a class="nav-link" href="#">Yardım</i></a></li>
+                        <li class="nav-item me-2 bg-danger px-2"><a class="nav-link text-white" href="#">Blog</i></a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header>
+        <div class="container d-flex flex-wrap justify-content-space-around">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-2 me-lg-auto text-dark text-decoration-none">
+                <img src="./assets/logo-karma.png" alt="logo" class="ms-5" style="width: 80px;" />
+                <div class="brand-name">
+                    <div class="">
+                        <h1 class="karma-h1">Karma</h1>
+                    </div>
+                    <div class="karma-span">
+                        <span>evinizin yanında</span>
+                    </div>
+                </div>
+            </a>
+            <form class="col-12 col-lg-5 mb-0 web-item" role="search">
+                <input type="search" class="form-control p-3 search-bar" placeholder="Ne Aramıştınız.."
+                    aria-label="Search">
+            </form>
+
+            <div class="row mb-2 web-item">
+                <div class="col-md-1 me-4 mt-4">
+                    <i class="fa-solid fa-user fa-xl"></i>
+                </div>
+                <div class="col-md mt-2">
+                    <a class="fs-5 fw-bold text-dark text-decoration-none" href="#" >Giriş Yap</a> <br>
+                    <a href="#" class="text-decoration-none text-dark">veya üye ol</a>
+                </div>
+                <div class="col-md-1 me-4 mt-4">
+                    <i class="fa-solid fa-angle-down fa-xl"></i>
+                </div>
+                <div class="col-md-1 me-4 mt-4">
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+                <div class="col-md mt-2">
+                    <a class="fs-5 fw-bold text-decoration-none text-dark" href="#">Sepet</a> <br>
+                    <span class="fs-5 fw-bold">0,00 TL</span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- Categories -->
+    <div class="web-categories">
+        <div class="container d-flex bg-danger categories">
+            <li class="categories-li">
+                <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar"
+                    class="text-white text-decoration-none fw-bold fs-6 me-lg-4 me-4 navbar-toggler">
+                    Bebek Ürünleri
+                </a>
+            </li>
+            <!-- Side Bar -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bebek Ürünleri</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Ne Aramıştınız.." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Ara</button>
+                    </form>
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Bebek Ürünleri
+                            </a>
+                            <ul class="beyaz-esya-dropdown dropdown-menu">
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <li class="categories-li">
+                <a href="" class="text-white text-decoration-none fw-bold fs-6 me-lg-4 me-4">Beyaz Eşya</a>
+            </li>
+            <li class="categories-li">
+                <a href="" class="text-white text-decoration-none fw-bold fs-6 me-lg-4 me-5">Televizyonlar & Ses
+                    Sistemleri</a>
+            </li>
+            <li class="categories-li">
+                <a href="" class="text-white text-decoration-none fw-bold fs-6 me-lg-4 me-4">Ev
+                    Eşyaları</a>
+            </li>
+            <li class="categories-li">
+                <a href="" class="text-white text-decoration-none fw-bold fs-6 me-lg-4 me-4">Kişisel
+                    Bakım</a>
+            </li>
+            <li class="categories-li">
+                <a href="" class="text-white text-decoration-none fw-bold fs-6 me-lg-4 me-4">Mutfak
+                    Gereçleri</a>
+            </li>
+        </div>
+    </div>
+
+    <!-- Mobile Categories -->
+    <div class="mobile-categories">
+        <div class="container d-flex bg-danger categories">
+            <li class="categories-li"><a href=""
+                    class="text-white text-decoration-none fw-bold text-tiny me-lg-4 me-4">BeyazEşya</a></li>
+            <li class="categories-li"><a href=""
+                    class="text-white text-decoration-none fw-bold text-tiny me-lg-4 me-4">Ayakkabı1</a></li>
+            <li class="categories-li"><a href=""
+                    class="text-white text-decoration-none fw-bold text-tiny me-lg-4 me-5">TV & Ses
+                    Sistemleri</a>
+            </li>
+            <li class="categories-li"><a href=""
+                    class="text-white text-decoration-none fw-bold text-tiny me-lg-4 me-4">Ev Eşyaları</a></li>
+            <li class="categories-li"><a href=""
+                    class="text-white text-decoration-none fw-bold text-tiny me-lg-4 me-4">Kişisel
+                    Bakım</a></li>
+            <li class="categories-li"><a href=""
+                    class="text-white text-decoration-none fw-bold text-tiny me-lg-4 me-4">Mutfak
+                    Gereçleri</a></li>
+        </div>
+    </div>
+    <!-- Breadcrumb-->
+    <nav aria-label="breadcrumb" class="container site-bread">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-dark fs-5 fw-semibold">Anasayfa</a>
+            </li>
+            <li class="breadcrumb-item active fs-5 fw-bolder" aria-current="page">Beyaz Eşya</li>
+        </ol>
+    </nav>
+
+    <div class="container">
+        <p class="text-center fs-2 fw-bold">Beyaz Eşya <span class="fs-5 fw-light">kategorisi içeriğindeki ürünler
+                listeleniyor</span></p>
+    </div>
+
+    <div class="container d-flex justify-content-start col-lg-5 mb-5">
+
+        <form class="col-5 col-lg-6 mb-0" role="search">
+            <input type="search" class="form-control p-3 search-bar-input" placeholder="En son eklenenlere göre"
+                aria-label="Search">
+        </form>
+        <form class="col-5 col-lg-6 mb-0" role="search">
+            <input type="search" class="form-control p-3 search-bar-input" placeholder="Tüm ürünler" aria-label="Search">
+        </form>
+        <a href="#" class="text-dark"><i class=" col-lg-1 mt-4 me-2 fa-brands fa-microsoft fa-2x"></i></a>
+        <a href="#" class="text-dark"><i class=" col-lg-1 mt-4 fa-solid fa-list fa-2x"></i></a>
+    </div>
+
+    <div class="container px-4 px-lg-0 pb-4">
+        <div class="row gx-4 gx-lg-3 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5 detail item-hover col-12">
+                <div class="card p-2" style="height: 500px; width: 300px;">
+                    <!-- Product image-->
+                    <img class="card-img-top p-5"
+                        src="https://media3.bosch-home.com/Product_Shots/435x515/16894013_SMS4HMB60T_STP_def.png"
+                        alt="bosch" />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder mb-3">BOSCH SMS4HMB60T Bulaşık Makinesi</h5>
+                            <!-- Product price-->
+                            <h4 class="fw-bolder mb-3">15.000,00 TL</h4>
+                            <h6 class="fw-bold"> Taksitli Fiyat : <span class="fw-light">3x5000,00 TL</span></h6>
+                        </div>
+                        <!--Card hover-->
+                        <div class="item-cover py-5">
+                            <div class=" hover-icons">
+                                <a class="mx-3 plus-icon"><i class="fa-solid fa-cart-plus fa-2x text-danger"></i></a>
+                                <a class="mx-3 heart-icon"><i class="fab fa-gratipay fa-2x text-danger"></i></a>
+                                <a class="mx-3 heart-icon"><i class="fa-solid fa-sliders fa-2x text-danger"></i></i></a>
+                            </div>
+                            <div class="mt-2 ">
+                                <a class="btn btn-danger incele-btn">Ürünü İncele<i
+                                        class="fa-solid fa-arrow-right-long ms-2 fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5 item-hover col-12">
+                <div class="card p-2" style="height: 500px; width: 300px;">
+                    <!-- Product image-->
+                    <img class="card-img-top p-5"
+                        src="https://media3.bosch-home.com/Product_Shots/435x515/16894013_SMS4HMB60T_STP_def.png"
+                        alt="bosch" />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">BOSCH SMS4HMB60T Bulaşık Makinesi</h5>
+                            <!-- Product price-->
+                            <h4 class="fw-bolder mb-3">15.000,00 TL</h4>
+                            <h6 class="fw-bold"> Taksitli Fiyat : <span class="fw-light">3x5000,00 TL</span></h6>
+                        </div>
+                        <!--Card hover-->
+                        <div class="item-cover py-5">
+                            <div class=" hover-icons">
+                                <a class="mx-3 plus-icon"><i class="fa-solid fa-cart-plus fa-2x text-danger"></i></a>
+                                <a class="mx-3 heart-icon"><i class="fab fa-gratipay fa-2x text-danger"></i></a>
+                                <a class="mx-3 heart-icon"><i class="fa-solid fa-sliders fa-2x text-danger"></i></i></a>
+                            </div>
+                            <div class="mt-2 ">
+                                <a class="btn btn-danger incele-btn">Ürünü İncele<i
+                                        class="fa-solid fa-arrow-right-long ms-2 fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5 item-hover col-12">
+                <div class="card p-2" style="height: 500px; width: 300px;">
+                    <!-- Product image-->
+                    <img class="card-img-top p-5"
+                        src="https://media3.bosch-home.com/Product_Shots/435x515/16894013_SMS4HMB60T_STP_def.png"
+                        alt="bosch" />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">BOSCH SMS4HMB60T Bulaşık Makinesi</h5>
+                            <!-- Product price-->
+                            <h4 class="fw-bolder mb-3">15.000,00 TL</h4>
+                            <h6 class="fw-bold"> Taksitli Fiyat : <span class="fw-light">3x5000,00 TL</span></h6>
+                        </div>
+                        <!--Card hover-->
+                        <div class="item-cover py-5">
+                            <div class=" hover-icons">
+                                <a class="mx-3 plus-icon"><i class="fa-solid fa-cart-plus fa-2x text-danger"></i></a>
+                                <a class="mx-3 heart-icon"><i class="fab fa-gratipay fa-2x text-danger"></i></a>
+                                <a class="mx-3 heart-icon"><i class="fa-solid fa-sliders fa-2x text-danger"></i></i></a>
+                            </div>
+                            <div class="mt-2 ">
+                                <a class="btn btn-danger incele-btn">Ürünü İncele<i
+                                        class="fa-solid fa-arrow-right-long ms-2 fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5 item-hover col-12">
+                <div class="card p-2" style="height: 500px; width: 300px;">
+                    <!-- Product image-->
+                    <img class="card-img-top p-5"
+                        src="https://media3.bosch-home.com/Product_Shots/435x515/16894013_SMS4HMB60T_STP_def.png"
+                        alt="bosch" />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">BOSCH SMS4HMB60T Bulaşık Makinesi</h5>
+                            <!-- Product price-->
+                            <h4 class="fw-bolder mb-3">15.000,00 TL</h4>
+                            <h6 class="fw-bold"> Taksitli Fiyat : <span class="fw-light">3x5000,00 TL</span></h6>
+                        </div>
+                        <!--Card hover-->
+                        <div class="item-cover py-5">
+                            <div class=" hover-icons">
+                                <a class="mx-3 plus-icon"><i class="fa-solid fa-cart-plus fa-2x text-danger"></i></a>
+                                <a class="mx-3 heart-icon"><i class="fab fa-gratipay fa-2x text-danger"></i></a>
+                                <a class="mx-3 heart-icon"><i class="fa-solid fa-sliders fa-2x text-danger"></i></i></a>
+                            </div>
+                            <div class="mt-2 ">
+                                <a class="btn btn-danger incele-btn">Ürünü İncele<i
+                                        class="fa-solid fa-arrow-right-long ms-2 fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container d-flex justify-content-center">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link text-white bg-danger" style="border-radius: 50%;" href="#">1</a></li>
+              <li class="page-item"><a class="page-link text-black pagination-style" href="#">2</a></li>
+              <li class="page-item"><a class="page-link text-black pagination-style" href="#">3</a></li>
+              <li class="page-item"><a class="page-link text-black pagination-style" href="#">4</a></li>
+              <li class="page-item"><a class="page-link text-black pagination-style" style="border-radius: 50%;" href="#">5</a></li>
+            </ul>
+          </nav>
+    </div>
+
+    <footer class="web-footer">
+        <div class="whatsapp">
+            <i class="fa-brands fa-whatsapp fa-3x"></i>
+        </div>
+        <div class="grid-container container mb-5">
+            <div class="grid-item ">
+                <h5 class="fw-bold">Kurumsal</h5>
+                <a class="text-secondary" href="#">Hakkımızda</a>
+                <br>
+                <a class="text-secondary" href="#">Kampanyalar</a>
+                <br>
+                <a class="text-secondary" href="#">Banka Hesap Numaraları</a>
+                <br>
+                <a class="text-secondary" href="#">Blog</a>
+                <br>
+                <a class="text-secondary" href="#">Haberler</a>
+            </div>
+            <div class="grid-item">
+                <h5 class="fw-bold">Müşteri Hizmetleri</h5>
+                <a class="text-secondary" href="#">Sipariş Sorgulama</a>
+                <br>
+                <a class="text-secondary" href="#">Teslimat ve Kargo</a>
+                <br>
+                <a class="text-secondary" href="#">İade ve Değişim</a>
+                <br>
+                <a class="text-secondary" href="#">Üyelik Sözleşmesi</a>
+                <br>
+                <a class="text-secondary" href="#">Gizlilik ve Güvenlik</a>
+            </div>
+
+            <div class="grid-item">
+                <h5 class="fw-bold">Yardım</h5>
+                <a class="text-secondary" href="#">İletişim Bilgileri</a>
+                <br>
+                <a class="text-secondary" href="#">Sıkça Sorulan Sorular</a>
+            </div>
+            <div class="grid-item">
+                <h5 class="fw-bold">İletişim</h5>
+                <p class="text-secondary"><span class="fw-bold text-dark">Adres :</span> 1376 Sok. No:1/43 Boran
+                    Plaza,<br>Halkapınar,Konak/İzmir</p>
+                <br>
+                <a href="tel:08505555555" class="text-secondary text-decoration-none "><span
+                        class="fw-bold text-dark">Telefon: </span>08505555555</a>
+            </div>
+            <div class="grid-item">
+                <div class="row">
+                    <div class="col-md">
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fab fa-facebook-f text-dark"></i></a>
+                    </div>
+                    <div class="col-md">
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter text-dark"></i></a>
+                    </div>
+                    <div class="col-md">
+                        <a href="https://www.youtube.com" target="_blank"><i
+                                class="fa-brands fa-youtube text-dark"></i></a>
+                    </div>
+                    <div class="col-md">
+                        <a href="https://www.instagram.com" target="_blank"><i
+                                class="fa-brands fa-instagram text-dark"></i></a>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <p class="text-secondary">E-Bültene abone olun,gelişmeleri kaçırmayın</p>
+                </div>
+                <div class="input-group" id="show_hide_password">
+                    <input type="password" class="form-control form-feature-two" placeholder="E-Posta Adresiniz"
+                        title="At least 6 characters length, contain 1 numeric, 1 uppercase letter, 1 special character"
+                        required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$">
+                    <div class="input-group-addon mx-1">
+                        <a class="btn btn-danger password-show" href=""><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--MOBILE FOOTER-->
+    <footer class="footer mt-auto py-3 my-5 mx-4 bg-white mobile-footer">
+
+        <div class="row">
+            <p>
+                <a class="dropdown-toggle text-dark text-decoration-none" data-bs-toggle="collapse"
+                    href="#multiCollapseExample1" role="button" aria-expanded="false"
+                    aria-controls="multiCollapseExample1"> <b>İletişim</b> </a>
+            </p>
+            <div class="row collapse multi-collapse" id="multiCollapseExample1">
+                <p class="text-secondary"><span class="fw-bold text-dark">Adres :</span> 1376 Sok. No:1/43 Boran
+                    Plaza,<br>Halkapınar,Konak/İzmir</p>
+                <br>
+                <a href="tel:08505555555" class="text-secondary text-decoration-none "><span
+                        class="fw-bold text-dark">Telefon: </span>08505555555</a>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                <a class="dropdown-toggle text-dark text-decoration-none" data-bs-toggle="collapse"
+                    href="#multiCollapseExample2" role="button" aria-expanded="false"
+                    aria-controls="multiCollapseExample2"> <b>Kurumsal</b> </a>
+            </p>
+            <div class="row collapse multi-collapse" id="multiCollapseExample2">
+                <a class="text-secondary" href="#">Hakkımızda</a>
+                <br>
+                <a class="text-secondary" href="#">Kampanyalar</a>
+                <br>
+                <a class="text-secondary" href="#">Banka Hesap Numaraları</a>
+                <br>
+                <a class="text-secondary" href="#">Blog</a>
+                <br>
+                <a class="text-secondary" href="#">Haberler</a>
+            </div>
+            <div class="row">
+                <p>
+                    <a class="dropdown-toggle text-dark text-decoration-none" data-bs-toggle="collapse"
+                        href="#multiCollapseExample3" role="button" aria-expanded="false"
+                        aria-controls="multiCollapseExample3"> <b>Müşteri Hizmetleri</b> </a>
+                </p>
+                <div class="row collapse multi-collapse" id="multiCollapseExample3">
+                    <a class="text-secondary" href="#">Sipariş Sorgulama</a>
+                    <br>
+                    <a class="text-secondary" href="#">Teslimat ve Kargo</a>
+                    <br>
+                    <a class="text-secondary" href="#">İade ve Değişim</a>
+                    <br>
+                    <a class="text-secondary" href="#">Üyelik Sözleşmesi</a>
+                    <br>
+                    <a class="text-secondary" href="#">Gizlilik ve Güvenlik</a>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    <a class="dropdown-toggle text-dark text-decoration-none" data-bs-toggle="collapse"
+                        href="#multiCollapseExample4" role="button" aria-expanded="false"
+                        aria-controls="multiCollapseExample4"> <b>Yardım</b> </a>
+                </p>
+                <div class="row collapse multi-collapse" id="multiCollapseExample4">
+                    <a class="text-secondary" href="#">İletişim Bilgileri</a>
+                    <br>
+                    <a class="text-secondary" href="#">Sıkça Sorulan Sorular</a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-1">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f text-dark"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter text-dark"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube text-dark"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.instagram.com" target="_blank"><i
+                            class="fa-brands fa-instagram text-dark"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="container d-flex justify-content-between p-5">
+        <div>
+            <h6 class="text-secondary fs-6">Copyright © <span id="current-year"></span>. Karma - Kırmızı
+            </h6>
+        </div>
+        <div>
+            <img src="./assets/akilliticaret.png" alt="">
+        </div>
+    </div>
+
+    <!--MENU ICONS FOR MOBILE-->
+    <div class="container-fluid bg-dark mobile-buttons fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-link-secondary">
+                        <i class="fa-solid text-white fa-magnifying-glass fa-lg"></i>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-link-secondary">
+                        <i class="nav-icons text-white fa fa-user fa-lg"></i>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-link-secondary">
+                        <i class="nav-icons text-white fa-regular fa-heart fa-lg"></i>
+                        <span class="badge">0</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-link-secondary">
+                        <i class="nav-icons text-white fa-solid fa-cart-shopping fa-lg"></i>
+                        <span class="badge">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('#current-year').text(new Date().getFullYear());
+        });
+    </script>
+</body>
+
+</html>
+
